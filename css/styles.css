@@ -827,10 +827,7 @@ span {
     margin-bottom: 24px;
 }
 
-.modal-check {
-    margin-right: 8px;
-
-}
+.modal-check {}
 
 
 .modal-check-text {
@@ -841,13 +838,16 @@ span {
     letter-spacing: 0.04em;
     color: #8e8f99;
 
-    display: block;
+    display: flex;
+    align-items: center;
+
 
 }
 
 .modal-check-span {
     width: 16px;
     height: 16px;
+
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -855,15 +855,25 @@ span {
     align-items: center;
     justify-content: center;
     fill: transparent;
-
+    margin-right: 8px;
 
 }
+
+
+
+.modal-check:checked+.modal-check-text>.modal-check-span {
+    background-color: #404bbf;
+    fill: #fff;
+}
+
+
 
 .modal-check-link {
     line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+    margin-left: 4px;
 }
 
 .modal-btn {
