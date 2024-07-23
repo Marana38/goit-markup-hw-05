@@ -727,6 +727,7 @@ span {
 
 .close-btn-icon:hover,
 .close-btn-icon:focus {
+    border: none;
     fill: #ffffff;
 }
 
