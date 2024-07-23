@@ -830,7 +830,7 @@ span {
 }
 
 .modal-comment:focus {
-    border: none;
+
     border-color: #404bbf;
 
 }
