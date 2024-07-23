@@ -829,8 +829,7 @@ span {
 
 }
 
-.modal-comment:focus {
-
+.modal-comment:focus-within {
     border-color: #404bbf;
 
 }
