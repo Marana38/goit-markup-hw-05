@@ -799,7 +799,7 @@ span {
 
 
 .modal-input:focus-within+.input-icon {
-    fill: #404bbf;
+    fill: #4D5AE5;
 }
 
 
@@ -830,7 +830,7 @@ span {
 }
 
 .modal-comment:focus-within {
-    border-color: #404bbf;
+    border-color: #4D5AE5;
 
 }
 
