@@ -794,9 +794,9 @@ span {
 }
 
 
-.input-icon:focus {
-    border: none;
-    fill: #ffffff;
+.modal-input+.input-icon:focus {
+    display: block;
+    fill: #404bbf;
 }
 
 
@@ -831,9 +831,8 @@ span {
 
 }
 
-.modal-comment:focus {
-    border-color: #4D5AE5;
-}
+
+
 
 .modal-field-btn {
     margin-bottom: 24px;
@@ -849,9 +848,6 @@ span {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-
-    display: flex;
-    align-items: center;
 
 
 }
